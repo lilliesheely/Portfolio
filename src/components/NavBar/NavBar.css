@@ -1,0 +1,25 @@
+.navbar {
+    font-family: 'Ms Madi', cursive;
+    font-size: 10vmin;
+    margin: 0;
+    width: 20vmin;
+    border: 0;
+    justify-content: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: right;
+    margin-left: auto;
+    padding-right: 10px;
+}

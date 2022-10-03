@@ -1,5 +1,9 @@
 
 import NavBar from '../../components/NavBar/NavBar';
+import AboutMe from '../../components/AboutMe/AboutMe'; 
+import Resume from '../../components/Resume/Resume'; 
+import Projects from '../../components/Projects/Projects'; 
+import Contact from '../../components/Contact/Contact'
 import './App.css';
 
 export default function App() {
@@ -9,6 +13,10 @@ export default function App() {
       {
         <>
           <NavBar />
+          <AboutMe />
+          <Resume /> 
+          <Projects /> 
+          <Contact />
         </>
       }
     </main>
