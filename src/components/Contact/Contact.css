@@ -1,0 +1,16 @@
+.contact-section {
+    display: grid;
+    grid-template-columns: 200px;
+    justify-content: center;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .contact-section  {
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px;
+        grid-template-rows: 230px;
+        justify-content: center;
+        gap: 15px;
+    }
+  }

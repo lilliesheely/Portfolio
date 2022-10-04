@@ -5,3 +5,33 @@ p {
 h1 {
     font-family: 'Ms Madi', cursive;
 }
+
+.profile-photo {
+    border-radius: 50%;
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+}
+
+.about-me {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 300px;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .about-me  {
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 230px;
+        justify-content: center;
+        gap: 15px;
+        margin-bottom: 100px;
+        align-items: center;
+    }
+  }

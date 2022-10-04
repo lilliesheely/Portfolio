@@ -5,7 +5,6 @@ export default function Resume() {
             <p>Mango Health </p>
             <p>Tuft & Needle </p>
             <p>Caviar</p>
-            <p>Hyatt Regency Bellevue</p>
         </>
     )
 }

@@ -1,0 +1,23 @@
+.project-section {
+    display: grid;
+    grid-template-columns: 410px;
+    grid-template-rows: 230px;
+    gap: 15px; 
+    justify-content: center;
+}
+
+.project-ind {
+    margin: 2px; 
+    display: flex;
+}
+
+@media only screen and (min-width: 768px) {
+    .project-section  {
+        display: grid;
+        grid-template-columns: 410px 410px;
+        grid-template-rows: 230px;
+        justify-content: center;
+        gap: 15px;
+    }
+  }
+
