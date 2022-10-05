@@ -13,7 +13,8 @@
 
 @media only screen and (min-width: 768px) {
     .project-section  {
-        display: grid;
+        display: flex;
+        flex-wrap: wrap;
         grid-template-columns: 410px 410px;
         grid-template-rows: 230px;
         justify-content: center;

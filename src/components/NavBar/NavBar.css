@@ -1,25 +1,35 @@
-.navbar {
-    font-family: 'Ms Madi', cursive;
+.nav {
+    position: fixed;
+    width: 100%; 
+    display: grid;
+    grid-template-columns: 50% 50%;
+    top: 0;
+    z-index: 9999;
+}
+
+.nav-logo {
+    font-family: 'Nothing You Could Do', cursive;
     font-size: 10vmin;
-    margin: 0;
-    width: 20vmin;
+    width: 70vmin;
     border: 0;
-    justify-content: left;
+    display: inline-block;
+    text-align: left;
+}
+.nav-items {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-items li {
+    list-style-type: none;
+    display: inline-grid   
 }
 
 a {
     text-decoration: none;
 }
 
-.nav {
-    display: flex;
-    align-items: center;
-    padding-left: 10px;
-}
-
-.nav-items {
-    display: flex;
-    justify-content: right;
-    margin-left: auto;
-    padding-right: 10px;
-}
+nav.scrolled {
+    background-color: darkgoldenrod;
+  }
