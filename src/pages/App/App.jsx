@@ -12,9 +12,13 @@ export default function App() {
       {
         <>
           <NavBar />
+        
           <AboutMe />
+          <hr />
           <Resume /> 
+          <hr />
           <Projects /> 
+          <hr />
           <Contact />
         </>
       }

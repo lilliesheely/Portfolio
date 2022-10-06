@@ -7,12 +7,18 @@ export default function Resume() {
                 <div className="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            MANGO FRONT
+                            Mango Health
                         </div>
                         <div class="flip-card-back">
-                            <h1>MANGO- back - </h1>
-                            <p>did some thigns</p>
-                            <p>coolness</p>
+                            <h1>Mango Health</h1>
+                            <h3>Solutions Delivery Analyst</h3>
+                            <ul>
+                                <li></li>
+                            </ul>
+                            <h3>Operations Associate</h3>
+                            <ul>
+                                <li></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -21,22 +27,26 @@ export default function Resume() {
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            Tuft & Needle FRONT
+                            Tuft & Needle
                         </div>
                         <div class="flip-card-back">
-                            <h1>Tuft & Needle- back - Customer Success</h1>
-                            <p>did some thigns</p>
-                            <p>coolness</p>
+                            <h1>Tuft & Needle</h1>
+                            <h3>Customer Experience & Retail Associate </h3>
+                            <ul>
+                                <li></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
                 <div className="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            CAVIAR FRONT
+                            Caviar
                         </div>
                         <div class="flip-card-back">
-                            <h1>CAVIAR- back - Customer Success</h1>
+                            <h1>Caviar</h1>
+                            <h3>Customer Experience Project Manager</h3>
+                            <h3>Customer Experience Shift Lead </h3>
                             <p>did some thigns</p>
                             <p>coolness</p>
                         </div>
@@ -48,15 +58,3 @@ export default function Resume() {
 }
 
 
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-    Tuft & Needle 
-    </div>
-    <div class="flip-card-back">
-      <h1>Tuft & Needle - Customer Success</h1>
-      <p>did some thigns</p>
-      <p>coolness</p>
-    </div>
-  </div>
-</div>
