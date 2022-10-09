@@ -7,7 +7,7 @@ export default function Resume() {
                 <div className="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            Mango Health
+                            <img src="https://i.imgur.com/sGFdBXD.png" height='400' alt="" />
                         </div>
                         <div class="flip-card-back">
                             <h1>Mango Health</h1>
@@ -22,12 +22,10 @@ export default function Resume() {
                         </div>
                     </div>
                 </div>
-                <div></div>
-                <div></div>
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            Tuft & Needle
+                            <img src="https://i.imgur.com/gmhnWTr.png" height='400' alt="" />
                         </div>
                         <div class="flip-card-back">
                             <h1>Tuft & Needle</h1>
@@ -41,7 +39,7 @@ export default function Resume() {
                 <div className="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            Caviar
+                            <img src="https://i.imgur.com/Z8jrk9g.png" height='400' alt="caviar ski pass" />
                         </div>
                         <div class="flip-card-back">
                             <h1>Caviar</h1>

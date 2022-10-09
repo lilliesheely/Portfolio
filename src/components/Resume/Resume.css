@@ -1,14 +1,15 @@
 .resume {
     display: grid;
     justify-content: center;
-    grid-template-columns: 400px 400px;
-    grid-template-rows: 220px 220px;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 800px;
+    align-items: center;
 }
 
 .flip-card {
     background-color: transparent;
-    width: 600px;
-    height: 400px;
+    width: 200px;
+    height: 500px;
     perspective: 1000px; 
     z-index: 15;
 }
@@ -20,6 +21,7 @@
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+    background-color: transparent;
 }
 
 .flip-card:hover .flip-card-inner {
@@ -33,7 +35,7 @@
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
-    z-index: 50;
+    background-color: transparent;
   }
 
   .flip-card-back {
@@ -46,7 +48,7 @@
   }
   
 .flip-card-front {
-    background-color: #bbb;
+    background-color: transparent;
     color: black;
     z-index: 2;
 }
@@ -54,8 +56,6 @@
 .flip-card-back {
     background-color: rosybrown;
     color: white;
-    transform: rotateY(180deg);
-    
-   
+    transform: rotateY(180deg);  
 }
 
