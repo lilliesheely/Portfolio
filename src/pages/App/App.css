@@ -1,21 +1,23 @@
 .App {
   text-align: center;
+  background-size: cover;
+
+  
+  
 }
 
 .container {
   position: relative;
   width: 100%;
-  height: 1500px;
+  height: 3000px;
 }
 
 .image-container {
-    width: 100%;
-    height: 0;
-    padding-top: 45.347%;
-    position: sticky;
-    top: 0;
-    background-size: cover;
-    background-image: url('https://drive.google.com/file/d/1UXgyk_RH_rk4DiipZNBNfzCP0RkihtHt/view?usp=sharing');
-   
+  width: 100%;
+  height: 0;
+  padding-top: 45.347%;
+  position: sticky;
+  top: 0;
+  background-size: cover;
+  /* background-image: url('https://i.imgur.com/zyf37kC.png'); */
 }
-
