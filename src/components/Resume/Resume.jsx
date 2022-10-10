@@ -1,5 +1,7 @@
 import './Resume.css'
 export default function Resume() {
+    
+    
     return (
         <>
             <h1 id="past">PAST WORK</h1>
@@ -7,7 +9,7 @@ export default function Resume() {
                 <div className="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="https://i.imgur.com/sGFdBXD.png" height='400' alt="" />
+                            <img src="https://i.imgur.com/sGFdBXD.png" height='300' alt="" />
                         </div>
                         <div class="flip-card-back">
                             <h1>Mango Health</h1>
@@ -25,7 +27,7 @@ export default function Resume() {
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="https://i.imgur.com/gmhnWTr.png" height='400' alt="" />
+                            <img src="https://i.imgur.com/gmhnWTr.png" height='300' alt="" />
                         </div>
                         <div class="flip-card-back">
                             <h1>Tuft & Needle</h1>
@@ -39,7 +41,7 @@ export default function Resume() {
                 <div className="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="https://i.imgur.com/Z8jrk9g.png" height='400' alt="caviar ski pass" />
+                            <img src="https://i.imgur.com/Z8jrk9g.png" height='300' alt="caviar ski pass" />
                         </div>
                         <div class="flip-card-back">
                             <h1>Caviar</h1>
@@ -50,6 +52,7 @@ export default function Resume() {
                         </div>
                     </div>
                 </div>
+                <div><a href="https://drive.google.com/file/d/1axkNSUy8KjDy9j99T9O1epYDEtuOeu92/view?usp=sharing" target="_blank" rel="noreferrer">Full Resume</a></div> 
             </section>
         </>
     )

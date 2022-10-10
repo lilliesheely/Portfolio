@@ -1,15 +1,54 @@
-import './Projects.css'
+import './Projects.css'; 
+import $ from 'jquery';
+
 export default function Projects() {
-    return (
+      return (
         <>
             <h1 id="projects">PROJECTS</h1>
             <div className='project-section'>
-                <a href="https://brewery-bucket-list.herokuapp.com/" target="_blank" rel="noreferrer" className='project-ind'> <img src="https://i.imgur.com/zWXBegY.png" alt="" width="900" height="152" className='project-img'/> </a>  
-                <a href="https://neighborhood-puzzle-swap.herokuapp.com/" target="_blank" rel="noreferrer" className='project-ind'><img src="https://i.imgur.com/yyPTDwH.png" alt="" width="900" height="152" className='project-img'/></a>   
-                <a href="https://lilliesheely.github.io/Connect4/" target="_blank" rel="noreferrer" className='project-ind'><img src="https://i.imgur.com/Zei7nXT.png" alt="" width="900" height="152" className='project-img'/></a>    
-                <a href="https://plantcollectorsf.herokuapp.com/" target="_blank" rel="noreferrer" className='project-ind'><img src="https://i.imgur.com/25TKs0K.png" alt="" width="900" height="152" className='project-img'/></a>   
-                <a href="https://nextstopapp.herokuapp.com/" target="_blank" rel="noreferrer" className='project-ind'><img src="https://i.imgur.com/197qF2w.png"  alt="" width="900" height="152" className='project-img'/> </a>  
+                <div className="project-ind">
+                    <img src="https://i.imgur.com/zWXBegY.png" alt="" width="600" height="101" className='project-img' />
+                    <div class="overlay">
+                        <div class="text">
+                            <p> <a href="https://brewery-bucket-list.herokuapp.com/" target="_blank" rel="noreferrer">Deployed App</a> <br /> <a href="https://github.com/lilliesheely/Brewery-Bucket-List">GitHub</a> <br /> MERN </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-ind">
+                    <img src="https://i.imgur.com/yyPTDwH.png" alt="" width="600" height="101" className='project-img' />
+                    <div class="overlay">
+                        <div class="text">
+                            <p className='textTest'> <a href="https://neighborhood-puzzle-swap.herokuapp.com/" target="_blank" rel="noreferrer" >Deployed App</a> <br /> <a href="https://github.com/lilliesheely/Brewery-Bucket-List">GitHub</a> <br /> MERN </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-ind">
+                    <img src="https://i.imgur.com/Zei7nXT.png" alt="" width="600" height="101" className='project-img' />
+                    <div class="overlay">
+                        <div class="text">
+                            <p> <a href="https://lilliesheely.github.io/Connect4/" target="_blank" rel="noreferrer">Deployed App</a> <br /> <a href="https://github.com/lilliesheely/Brewery-Bucket-List">GitHub</a> <br /> JS | CSS | HTML </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-ind">
+                    <img src="https://i.imgur.com/25TKs0K.png" alt="" width="600" height="101" className='project-img' />
+                    <div class="overlay">
+                        <div class="text">
+                            <p> <a href="https://plantcollectorsf.herokuapp.com/" target="_blank" rel="noreferrer" >Deployed App</a> <br /> <a href="https://github.com/lilliesheely/Brewery-Bucket-List">GitHub</a> <br /> MERN </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-ind">
+                    <img src="https://i.imgur.com/197qF2w.png" alt="" width="600" height="101" className='project-img' />
+                    <div class="overlay">
+                        <div class="text">
+                            <p> <a href="https://nextstopapp.herokuapp.com/" target="_blank" rel="noreferrer">Deployed App</a> <br /> <a href="https://github.com/lilliesheely/Brewery-Bucket-List">GitHub</a> <br /> MERN </p>
+                        </div>
+                    </div>
+                </div> 
             </div>
         </>
     )
 }
+
+
