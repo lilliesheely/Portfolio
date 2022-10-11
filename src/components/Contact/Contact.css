@@ -1,13 +1,18 @@
 .contact-section {
     display: grid;
-    grid-template-columns: 200px;
+    grid-template-columns: 200px 200px;
     justify-content: center;
     text-decoration: none;
     color: rgb(84, 181, 170);
     gap: 15px; 
+    margin-bottom: -250px;
 }
 
-
+.landgh{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    margin-left: 90px;
+}
 
 
 @media only screen and (min-width: 768px) {
@@ -24,8 +29,21 @@
         display: grid;
         align-items: center;
         justify-content: center;
-        grid-template-columns: 250px 250px 250px;
+        grid-template-columns: 200px 200px 200px;
         grid-template-rows: 200px;
+        margin-bottom: -170px;
+
     }
+    .landgh{
+        display: grid;
+        grid-template-columns: 250px 250px;
+        margin-left: 90px;
+    }
+    .linkedin {
+        display: grid;
+        grid-template-columns: 250px 250px;
+        margin-left: 90px; 
+    }
+   
   }
 

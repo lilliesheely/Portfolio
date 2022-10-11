@@ -9,7 +9,7 @@ export default function Resume() {
                 <div className="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="https://i.imgur.com/sGFdBXD.png" id='resume-img' alt="Mango Health Ski Pass" />
+                            <img src="https://i.imgur.com/sef0ihi.png" id='resume-img' alt="Mango Health Ski Pass" />
                         </div>
                         <div class="flip-card-back">
                             <h2>Mango Health</h2>
@@ -30,7 +30,7 @@ export default function Resume() {
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="https://i.imgur.com/gmhnWTr.png" id='resume-img' alt="Tuft and Needle Ski Pass" />
+                            <img src="https://i.imgur.com/nKFdsc2.png" id='resume-img' alt="Tuft and Needle Ski Pass" />
                         </div>
                         <div class="flip-card-back">
                             <h2>Tuft & Needle</h2>
@@ -46,7 +46,7 @@ export default function Resume() {
                 <div className="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="https://i.imgur.com/Z8jrk9g.png" id='resume-img' alt="caviar ski pass" />
+                            <img src="https://i.imgur.com/zTu1BoZ.png" id='resume-img' alt="caviar ski pass" />
                         </div>
                         <div class="flip-card-back">
                             <h2>Caviar</h2>
@@ -60,7 +60,6 @@ export default function Resume() {
                             <ul>
                                 <li>Managed a team of 6 support agents; handling all inquiries, sales calls, restaurant relations, and customer complaints.</li>
                                 <li>Reported weekly on my team’s metrics and met with each individual to help improve performance. </li>
-                                <li>Created monthly schedules for 20 support agents.</li>
                             </ul>
                         </div>
                     </div>

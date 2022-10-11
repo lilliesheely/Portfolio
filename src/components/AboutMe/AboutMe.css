@@ -5,21 +5,35 @@
     border-color: white;
     border-style: solid;
     margin-bottom: 30px;
+    height: 425px; 
+    width: 425px; 
 }
 
 .about-me {
     display: grid;
-    grid-template-columns: 300px;
+    grid-template-columns: 500px;
+    padding-top: 125px;
     grid-template-rows: 350px;
     justify-content: center;
     gap: 15px;
     align-items: center;
     margin-top: 100px;
+    color: #FF458F;
+    font-size: 20px;
+}
+
+#sub-aboutme {
+    font-family: 'EB Garamond', serif;
+    text-align: left;
+    padding: 20px;  
 }
 
 #aboutMeDescription {
     color: #FF458F;
-    font-size: 20px;
+    font-size: 16px;
+    width: 450px; 
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
@@ -27,11 +41,22 @@
     .about-me  {
         display: grid;
         grid-template-rows: 600px;
-        grid-template-columns: 500px 600px ;
+        grid-template-columns: 500px 650px ;
         justify-content: center;
         gap: 10px;
         align-items: center;
         margin-left: -400px;
+        text-align: left;
+    }
+
+    #sub-aboutme {
+        font-family: 'EB Garamond', serif;
+        text-align: left;
+    }
+    #aboutMeDescription {
+        color: #FF458F;
+        font-size: 16px;
+        width: 450px; 
         
     }
   }

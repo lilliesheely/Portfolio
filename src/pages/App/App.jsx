@@ -7,7 +7,7 @@ import $ from 'jquery';
 
 export default function App() {
   const skiImages = {
-    1: 'https://i.imgur.com/ZW5b7PH.png',
+    // 1: 'https://i.imgur.com/ZW5b7PH.png',
     2: 'https://i.imgur.com/JaGnWRo.png',
     3: 'https://i.imgur.com/Mpus0dn.png',
     4: 'https://i.imgur.com/LUgeBz7.png',

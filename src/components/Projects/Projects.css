@@ -60,9 +60,7 @@
     text-align: center;
   }
 
-.textTest {
-    
-}
+
 
 p a {
     text-decoration: none;
@@ -76,6 +74,7 @@ p a {
         grid-template-rows: 230px;
         justify-content: center;
         gap: 30px;
+        margin-bottom: 70px;
     }
     .project-img {
         width: 600px;
