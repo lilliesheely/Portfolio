@@ -4,7 +4,7 @@ export default function Resume() {
     
     return (
         <>
-            <h1 id="past">past <span id='seasons'></span> </h1>
+            <h1 id="past">past work </h1>
             <section className='resume'>
                 <div className="flip-card">
                     <div class="flip-card-inner">

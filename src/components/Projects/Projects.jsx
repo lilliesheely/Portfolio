@@ -5,7 +5,7 @@ export default function Projects() {
       return (
         <>
            <div id='projects'></div>
-            <h1><span id='runs'></span></h1>
+            <h1>projects</h1>
             
             <div className='project-section'>
                 <div className="project-ind">

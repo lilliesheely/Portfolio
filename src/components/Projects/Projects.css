@@ -78,7 +78,9 @@ p a {
         justify-content: center;
         gap: 30px;
         margin-bottom: 70px;
-    }
+        padding-left: 0;
+}
+    
     .project-img {
         width: 600px;
         height: 101px;
