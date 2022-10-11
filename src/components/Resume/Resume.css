@@ -1,10 +1,9 @@
 .resume {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 500px;
-    gap: 30px; 
-    align-items: center;
-    margin-left: 40vmax;
+    margin-left: 15vmax;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    
 }
 
 #seasons:before {
@@ -107,7 +106,7 @@ h4 {
     vertical-align: middle;
     white-space: nowrap;
     width: 150px;
-  
+    margin-bottom: -40px;
   }
   
   .button-19:after {
@@ -154,6 +153,7 @@ h4 {
         grid-template-rows: 600px;
         gap: 60px; 
         align-items: center;
+        margin-left: 0;
     }
     .button-19 {
         width: 15%;

@@ -12,7 +12,7 @@ export default function Projects() {
                     <img src="https://i.imgur.com/zWXBegY.png" alt="" width="600" height="101" className='project-img' />
                     <div class="overlay">
                         <div class="text">
-                            <p> <a href="https://brewery-bucket-list.herokuapp.com/" target="_blank" rel="noreferrer">Deployed App</a> <br /> <a href="https://github.com/lilliesheely/Brewery-Bucket-List" target="_blank" rel="noreferrer">GitHub</a> <br /> JavaScript | MongoDB | Mongoose | Express | React | Node.js | HTML | CSS </p>
+                            <p> <a href="https://brewery-bucket-list.herokuapp.com/" target="_blank" rel="noreferrer">Deployed App</a> <br /> <a href="https://github.com/lilliesheely/Brewery-Bucket-List" target="_blank" rel="noreferrer">GitHub</a> <br /> JS | MongoDB | Mongoose | Express | React | Node.js | HTML | CSS </p>
                         </div>
                     </div>
                 </div>

@@ -6,5 +6,18 @@ footer {
     left: 0;
     bottom: 0;
     text-align: center;
-    margin-top: 310px;
+    margin-top: 320px;
+}
+
+@media only screen and (min-width: 768px) {
+    footer {
+    width: 100%;
+    background-color: white;
+    color: hotpink;
+    position:relative;  
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    margin-top: 300px; 
+    }
 }

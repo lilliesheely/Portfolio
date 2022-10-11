@@ -19,11 +19,13 @@
 .project-ind {
     display: flex;
     position: relative;
+    
 }
 
 .project-img { 
     width: 300px; 
     height: 51px;
+    
 }
 
 .container {

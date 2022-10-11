@@ -4,7 +4,7 @@
     justify-content: center;
     text-decoration: none;
     color: #0db7aa;
-    gap: 15px; 
+    gap: 5px; 
     margin-bottom: -250px;
 }
 
@@ -12,6 +12,10 @@
     display: grid;
     grid-template-columns: 250px 250px;
     margin-left: 90px;
+    margin-bottom: -40px;
+}
+.linkedin {
+    margin-bottom: -40px;
 }
 
 
