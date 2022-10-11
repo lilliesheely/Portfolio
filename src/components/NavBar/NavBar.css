@@ -6,11 +6,11 @@
     top: 0;
     z-index: 9999;
     padding: 10px;
+    background-color: white;
 }
 
 .nav-logo {
-    font-family: 'Nothing You Could Do', cursive;
-    font-size: 7vmin;
+    font-size: 75px;
     width: 70vmin;
     border: 0;
     display: inline-block;
@@ -24,7 +24,8 @@
 
 .nav-items li {
     list-style-type: none;
-    display: inline-grid   
+    display: inline-grid; 
+    font-size: 35px;
 }
 
 a {
@@ -32,6 +33,12 @@ a {
 }
 
 nav.scrolled {
-    background-color: darkgoldenrod;
-  }
+    background-color: white;
+}
 
+:target[id]:before {
+    content: '';
+    display: block;
+    height: 100px;
+    /* margin: -40px 0 0; */
+}

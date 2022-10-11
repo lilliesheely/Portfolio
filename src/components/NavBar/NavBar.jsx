@@ -1,4 +1,5 @@
 import './NavBar.css';
+import $ from 'jquery';
 
 export default function NavBar() {
   let navbar = document.querySelector('nav')
@@ -9,7 +10,8 @@ export default function NavBar() {
     } else {
       navbar.classList.remove('scrolled')
     }
-}
+  }
+  
   return (
     <nav className='nav'>
       <div className="nav-logo">Lillie Sheely</div> 

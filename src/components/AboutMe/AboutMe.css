@@ -4,7 +4,7 @@
     border: 3px;
     border-color: white;
     border-style: solid;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .about-me {
@@ -21,11 +21,12 @@
 @media only screen and (min-width: 768px) {
     .about-me  {
         display: grid;
-        grid-template-rows: 350px;
-        grid-template-columns: 400px ;
+        grid-template-rows: 600px;
+        grid-template-columns: 500px 600px ;
         justify-content: center;
-        gap: 15px;
+        gap: 10px;
         align-items: center;
-
+        margin-left: -400px;
+        
     }
   }

@@ -4,20 +4,14 @@
     justify-content: center;
     text-decoration: none;
     color: rgb(120, 55, 34);
-    gap: 15px;
+    gap: 15px; 
 }
 
-.contact-section2 {
-    display: grid;
-    grid-template-columns: 200px;
-    justify-content: center;
-    text-decoration: none;
-    color: rgb(120, 55, 34);
-    gap: 15px;
-}
+
+
 
 @media only screen and (min-width: 768px) {
-    .contact-section  {
+    /* .contact-section  {
         display: grid;
         grid-template-columns: 200px 200px 200px;
         grid-template-rows: 150px;
@@ -25,13 +19,12 @@
         gap: 15px;
         text-decoration: none;
         color: rgb(120, 55, 34);
-    }
-    .contact-section2 {
+    } */
+    .contact-section {
         display: grid;
-        grid-template-columns: 200px 200px;
+        align-items: center;
         justify-content: center;
-        text-decoration: none;
-        color: rgb(120, 55, 34);
-      } 
+        grid-template-columns: 250px 250px 250px;
+    }
   }
 

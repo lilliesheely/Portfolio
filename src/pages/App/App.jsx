@@ -1,9 +1,6 @@
 import NavBar from '../../components/NavBar/NavBar';
-import MainPage from '../MainPage/MainPage'
-// import AboutMe from '../../components/AboutMe/AboutMe'; 
-// import Resume from '../../components/Resume/Resume'; 
-// import Projects from '../../components/Projects/Projects'; 
-// import Contact from '../../components/Contact/Contact';
+import MainPage from '../MainPage/MainPage';  
+import Footer from '../../components/Footer/Footer';
 import './App.css';
 import $ from 'jquery';
 
@@ -65,7 +62,7 @@ export default function App() {
            <div class='container'>
             <NavBar />
             <MainPage />
-            {/* <div className='image-container'></div> */}
+            <Footer />
           </div>
         </>
       }

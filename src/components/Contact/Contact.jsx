@@ -3,10 +3,12 @@ import './Contact.css';
 export default function Contact() {
     return( 
         <>
-            <h1 id='contact'>Get in touch</h1>
+            <h1 id='contact'>GET IN TOUCH</h1>
             <section className="contact-section">
                 <div>
-                    <a href="mailto:lilliesheely@gmail.com"> <img src="https://i.imgur.com/71LZUOC.png" alt="envelope" height='100' width='100'  />lilliesheely@gmail.com</a>
+                    <a href="mailto:lilliesheely@gmail.com"> <img src="https://i.imgur.com/71LZUOC.png" alt="envelope" height='100' width='100'  /></a>
+                    <br />
+                    lilliesheely@gmail.com
                 </div>  
                 <div>
                     <img src="https://i.imgur.com/PtyVnel.png" height='100' width='100' alt="phone" />
@@ -18,9 +20,6 @@ export default function Contact() {
                     <br /> 
                     San Francisco, CA  
                 </div>
-            </section>
-            <h1>Check me out on these platforms:</h1>
-            <section className="contact-section2"> 
                 <div>
                     <a href="https://www.linkedin.com/in/lillian-sheely/"><img src="https://i.imgur.com/GbQ2cFd.png" height='100' width='100' alt="linkedin" /></a>
                 </div>

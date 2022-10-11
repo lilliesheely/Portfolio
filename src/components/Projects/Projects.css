@@ -1,11 +1,21 @@
 .project-section {
     display: grid;
     grid-template-columns: 410px;
-  
     gap: 15px; 
     justify-content: center;
 }
 
+#projects {
+    
+    font-size: 100px;
+}
+
+#runs:before {
+    content: 'RUNS'  ;
+}
+#runs:hover:before {
+    content: 'PROJECTS';
+}
 .project-ind {
     display: flex;
     position: relative;
@@ -60,7 +70,7 @@
         grid-template-columns: 410px;
         grid-template-rows: 230px;
         justify-content: center;
-        gap: 15px;
+        gap: 30px;
     }
     .project-img {
         width: 600px;

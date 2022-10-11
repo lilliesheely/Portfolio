@@ -4,7 +4,7 @@ export default function Resume() {
     
     return (
         <>
-            <h1 id="past">PAST WORK</h1>
+            <h1 id="past">PAST <span id='seasons'></span> </h1>
             <section className='resume'>
                 <div className="flip-card">
                     <div class="flip-card-inner">
@@ -55,10 +55,10 @@ export default function Resume() {
                 </section> 
                 <br />
                 <br />
-                <div><a href="https://drive.google.com/file/d/1axkNSUy8KjDy9j99T9O1epYDEtuOeu92/view?usp=sharing" target="_blank" rel="noreferrer">Full Resume</a></div> 
+                <div>
+                    <button class="button-19"><a href="https://drive.google.com/file/d/1axkNSUy8KjDy9j99T9O1epYDEtuOeu92/view?usp=sharing" target="_blank" rel="noreferrer">Full Resume</a></button>
+                </div> 
             
         </>
     )
 }
-
-
