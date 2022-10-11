@@ -11,15 +11,15 @@ export default function NavBar() {
       navbar.classList.remove('scrolled')
     }
   }
-  
+
   return (
     <nav className='nav'>
-      <div className="nav-logo">Lillie Sheely</div> 
+      <div className="nav-logo"><img src="https://i.imgur.com/6K8aQos.png" id='logo' alt="" /></div> 
         <ul className='nav-items'>
-          <li><a href="#about">ME</a></li> &nbsp; | &nbsp; 
-          <li><a href="#past">PAST</a></li> &nbsp; | &nbsp; 
-          <li><a href="#projects">PROJECTS</a></li> &nbsp; | &nbsp; 
-          <li><a href="#contact">CONTACT</a></li> &nbsp; &nbsp;
+          <li><a href="#about">me</a></li> &nbsp; | &nbsp; 
+          <li><a href="#past">past</a></li> &nbsp; | &nbsp; 
+          <li><a href="#projects">projects</a></li> &nbsp; | &nbsp; 
+          <li><a href="#contact">contact</a></li> &nbsp; &nbsp;
         </ul>
     </nav>
   );

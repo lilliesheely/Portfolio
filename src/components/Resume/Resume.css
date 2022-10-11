@@ -7,10 +7,10 @@
 }
 
 #seasons:before {
-    content: 'SEASONS'  ;
+    content: 'seasons'  ;
 }
 #seasons:hover:before {
-    content: 'WORK';
+    content: 'work';
 }
 
 #resume-img { 
@@ -54,12 +54,27 @@
     border-radius: 5%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
-    background-color: rosybrown;
+    background-color: #FFAE90;
     color: white;
     transform: rotateY(180deg);  
+    padding: 5px;
+    padding-left: 10px;
+    text-align: left;
 }
 
+li {
+    
 
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+h4 {
+    margin-bottom: -5px;
+}
 @media only screen and (min-width: 768px) {
     .resume {
         display: flex;
@@ -78,7 +93,6 @@
 
 .button-19 {
   appearance: button;
-  background-color: #1899D6;
   border: solid transparent;
   border-radius: 16px;
   border-width: 0 0 4px;
@@ -86,7 +100,7 @@
   color: #FFFFFF;
   cursor: pointer;
   display: inline-block;
-  font-family: din-round,sans-serif;
+  
   font-size: 15px;
   font-weight: 700;
   letter-spacing: .8px;
@@ -96,7 +110,7 @@
   overflow: visible;
   padding: 13px 16px;
   text-align: center;
-  text-transform: uppercase;
+
   touch-action: manipulation;
   transform: translateZ(0);
   transition: filter .2s;
@@ -110,7 +124,7 @@
 
 .button-19:after {
   background-clip: padding-box;
-  background-color: #1CB0F6;
+  background-color: rgb(84, 181, 170);
   border: solid transparent;
   border-radius: 16px;
   border-width: 0 0 4px;
@@ -135,4 +149,9 @@
 
 .button-19:disabled {
   cursor: auto;
+}
+
+button a {
+    text-decoration: none;
+    color: white; 
 }

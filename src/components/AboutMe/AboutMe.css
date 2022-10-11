@@ -17,6 +17,11 @@
     margin-top: 100px;
 }
 
+#aboutMeDescription {
+    color: #FF458F;
+    font-size: 20px;
+}
+
 
 @media only screen and (min-width: 768px) {
     .about-me  {

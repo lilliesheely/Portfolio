@@ -5,31 +5,40 @@
     grid-template-columns: 50% 50%;
     top: 0;
     z-index: 9999;
-    padding: 10px;
+    padding-right: 10px;
     background-color: white;
+    color: cadetblue;
 }
 
+#logo {
+    width: 200px;
+    padding-top: 20px;
+}
 .nav-logo {
-    font-size: 75px;
-    width: 70vmin;
+    width: 80px; 
     border: 0;
     display: inline-block;
     text-align: left;
+    padding-left: 20px;
 }
 .nav-items {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding-right: 20px;
+    padding-top: 5px;
 }
 
 .nav-items li {
     list-style-type: none;
     display: inline-grid; 
-    font-size: 35px;
+    font-size: 25px;
+    color: cadetblue;   
 }
 
 a {
     text-decoration: none;
+    color: cadetblue;
 }
 
 nav.scrolled {
@@ -40,5 +49,5 @@ nav.scrolled {
     content: '';
     display: block;
     height: 100px;
-    /* margin: -40px 0 0; */
+    margin: -40px 0 0;
 }

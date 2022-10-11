@@ -59,7 +59,7 @@ export default function App() {
     <main className="App">
       {
         <>
-           <div class='container'>
+           <div class='container' id='about'>
             <NavBar />
             <MainPage />
             <Footer />

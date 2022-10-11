@@ -3,7 +3,7 @@ import './Contact.css';
 export default function Contact() {
     return( 
         <>
-            <h1 id='contact'>GET IN TOUCH</h1>
+            <h1 id='contact'>get in touch</h1>
             <section className="contact-section">
                 <div>
                     <a href="mailto:lilliesheely@gmail.com"> <img src="https://i.imgur.com/71LZUOC.png" alt="envelope" height='100' width='100'  /></a>
