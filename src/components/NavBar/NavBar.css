@@ -7,7 +7,7 @@
     z-index: 9999;
     padding-right: 10px;
     background-color: white;
-    color: rgb(84, 181, 170);;
+    color: #0db7aa;
 }
 
 #logo {
@@ -26,7 +26,8 @@
     justify-content: flex-end;
     align-items: center;
     padding-right: 20px;
-    padding-top: 5px;
+    padding-top: 65px;
+    
     
 }
 
@@ -34,13 +35,13 @@
     list-style-type: none;
     display: inline-grid; 
     font-size: 25px;
-    color: rgb(84, 181, 170);  
+    color: #0db7aa;  
     font-family: 'EB Garamond', serif; 
 }
 
 a {
     text-decoration: none;
-    color: cadetblue;
+    color: #0db7aa;
 }
 
 nav.scrolled {
@@ -52,4 +53,14 @@ nav.scrolled {
     display: block;
     height: 100px;
     margin: -40px 0 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .nav-items {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 20px;
+        padding-top: 5px;
+    }
 }

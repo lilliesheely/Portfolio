@@ -14,7 +14,7 @@ export default function NavBar() {
 
   return (
     <nav className='nav'>
-      <div className="nav-logo"><img src="https://i.imgur.com/6K8aQos.png" id='logo' alt="" /></div> 
+      <div className="nav-logo"><img src="https://i.imgur.com/OAhYuUl.png" id='logo' alt="" /></div> 
         <ul className='nav-items'>
           <li><a href="#about">me</a></li> &nbsp;&nbsp; | &nbsp;&nbsp; 
           <li><a href="#past">past</a></li> &nbsp;&nbsp; | &nbsp;&nbsp; 

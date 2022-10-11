@@ -4,6 +4,7 @@
     grid-template-columns: 500px;
     gap: 30px; 
     align-items: center;
+    margin-left: 40vmax;
 }
 
 #seasons:before {
@@ -111,7 +112,7 @@ h4 {
   
   .button-19:after {
     background-clip: padding-box;
-    background-color: rgb(84, 181, 170);
+    background-color: #0db7aa;
     border: solid transparent;
     border-radius: 16px;
     border-width: 0 0 4px;
