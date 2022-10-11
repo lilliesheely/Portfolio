@@ -3,6 +3,7 @@
     grid-template-columns: 410px;
     gap: 15px; 
     justify-content: center;
+    padding-left: 100px;
 }
 
 #projects {
@@ -21,8 +22,8 @@
 }
 
 .project-img { 
-    width: 400px; 
-    height: 67px;
+    width: 300px; 
+    height: 51px;
 }
 
 .container {
@@ -36,8 +37,8 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: 67px;
-    width: 400px;
+    width: 300px; 
+    height: 51px;
     opacity: 0;
     transition: .5s ease;
     background-color: rgb(0, 184, 170);  

@@ -15,21 +15,21 @@
 }
 
 #resume-img { 
-    width: 200px;
-    height: 305px;
+    width: 262px;
+    height: 400px;
 }
 .flip-card {
     background-color: transparent;
     justify-content: center;
-    width: 200px;
-    height: 305px;
+    width: 262px;
+    height: 400px;
     perspective: 1000px; 
 }
 .flip-card-inner {
     position: relative;
     justify-content: center;
-    width: 200px;
-    height: 305px;
+    width: 262px;
+    height: 400px;
     text-align: center;
     transition: transform .9s;
     transform-origin: center;
@@ -43,8 +43,8 @@
 .flip-card-front {
     position: absolute;
     justify-content: center;
-    width: 200px;
-    height: 305px;
+    width: 262px;
+    height: 400px;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
     background-color: transparent;
@@ -53,8 +53,8 @@
 .flip-card-back {
     position: absolute;
     justify-content: center;
-    width: 200px;
-    height: 305px;
+    width: 262px;
+    height: 400px;
     border-radius: 5%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
@@ -106,7 +106,7 @@ h4 {
     -webkit-user-select: none;
     vertical-align: middle;
     white-space: nowrap;
-    width: 25%;
+    width: 150px;
   
   }
   
