@@ -10,11 +10,7 @@ export default function Contact() {
                     <br />
                     lilliesheely@gmail.com
                 </div>  
-                <div className='contactme'>
-                    <img src="https://i.imgur.com/ajAMVw4.png" height='100' width='100' alt="phone" />
-                    <br /> 
-                    602-989-3195
-                </div>
+               
                 <div className='contactme'>
                     <img src="https://i.imgur.com/Ow1DZm5.png" alt="pin" height='100' width='100' /> 
                     <br /> 
