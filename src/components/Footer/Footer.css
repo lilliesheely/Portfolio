@@ -2,7 +2,7 @@ footer {
     width: 100%;
     background-color: white;
     color: hotpink;
-    position:relative;  
+    position: fixed;
     left: 0;
     bottom: 0;
     text-align: center;
@@ -14,7 +14,7 @@ footer {
     width: 100%;
     background-color: white;
     color: hotpink;
-    position:relative;  
+    position: fixed;  
     left: 0;
     bottom: 0;
     text-align: center;
