@@ -68,7 +68,7 @@ export default function Resume() {
                 <br />
                 <br />
                 <div>
-                    <button class="button-19"><a href="https://drive.google.com/file/d/12-6IMVK06MacjIWdlIi_2G3RPYp9X8mt/view?usp=sharing" target="_blank" rel="noreferrer">full resume</a></button>
+                    <button class="button-19"><a href="https://drive.google.com/file/d/1LKPwgvAx_sTZYEggvWbeCryVsrQFitKp/view?usp=sharing" target="_blank" rel="noreferrer">full resume</a></button>
                 </div> 
             
         </>
