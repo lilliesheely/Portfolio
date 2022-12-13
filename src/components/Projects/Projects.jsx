@@ -40,14 +40,14 @@ export default function Projects() {
                         </div>
                     </div>
                 </div>
-                <div class="project-ind">
+                {/* <div class="project-ind">
                     <img src="https://i.imgur.com/197qF2w.png" alt="" width="600" height="101" className='project-img' />
                     <div class="overlay">
                         <div class="text">
                             <p> <a href="https://nextstopapp.herokuapp.com/" target="_blank" rel="noreferrer">Deployed App</a> <br /> <a href="https://github.com/lilliesheely/Next-Stop" target="_blank" rel="noreferrer">Github Link</a> <br /> Python | Django | PostgreSQL | CSS | HTML </p>
                         </div>
                     </div>
-                </div> 
+                </div>  */}
             </div>
         </>
     )
